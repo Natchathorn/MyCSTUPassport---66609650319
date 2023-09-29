@@ -7,4 +7,21 @@
                         font-family: 'Prompt', sans-serif;
                         color: rgb(202, 161, 249);
                       }
-                      
+                      .flex-layout{
+                        display: flex;
+                    }
+                    .flex-layout div{
+                        background-color: rgb(209, 165, 196);
+                        margin: 1px;
+                        text-align: center;
+                        height: 50px;
+                    }
+                    .section1{
+                      color: #845EC2;
+                    }
+                    .section2{
+                      color: #a844bf;
+                    }
+                    .section3{
+                      color: rgb(26, 194, 138);
+                    }
