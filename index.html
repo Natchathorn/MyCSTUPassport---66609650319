@@ -3,13 +3,83 @@
         <head>
             <title>  My cstu passport </title>
             <link rel ="stylesheet" href="css/style.css">
+            <style>
+                @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+            width: 100%;
+            }
+            html, body {
+                        background-color: #FBEAFF;
+                         
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Prompt', sans-serif;
+                        color: rgb(58, 142, 238);
+                      }
+                      .flex-layout{
+                        display: flex;
+                    }
+                    .flex-layout div{
+                        background-color: rgb(180, 209, 165);
+                        margin: 1px;
+                        text-align: center;
+                        height: 50px;
+                    }
+                    .section1{
+                      color: #5ea7c2;
+                    }
+                    .section2{
+                      color: #a844bf;
+                    }
+                    .section3{
+                      color: rgb(26, 194, 138);
+                    }
+
+
+            }
+            
+
+            @media only screen and (min-width: 600px) {
+            /* For tablets: */
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 100%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 100%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+            }
+
+            @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 100%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 100%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+            
+            
+            }
+            </style>
         </head>
         <body>
             <header>
             <div class="section1">
             <h1> <marquee Scrollamount=7 >  My cstu passport </marquee> </h1> </div>
             </header>
-            <div class="flex-layout">
+            <div class="flex-layout col-3 col-s-3">
 
                 <div style="flex-grow: 4"><a href="../MyCSTUPassport-66609650319/html/activity.html">Activity</a></div>
                 <div style="flex-grow: 3"><a href="../MyCSTUPassport-66609650319/html/advisor.html"> Advisor </a></div>
@@ -18,12 +88,12 @@
             <from>
                 <fieldset>
                     
-                    
+                    <div class="col-6 col-s-9">
                         <h1 Align="center"> My Profile </h1>  
                         <center>
                             <img src="image/me.jpg" alt="Myself Picture" width="300px" height = 400px Align="center"> </center>
                             <br>
-
+                    </div>
                         <h2 Align="center"> Natcahthron Danusawad </h2>
                         <h2 Align="center"> Gus  </h2>
 
