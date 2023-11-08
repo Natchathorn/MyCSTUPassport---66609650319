@@ -1,99 +1,121 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>  My cstu passport </title>
-            <link rel ="stylesheet" href="css/style.css">
-            <style>
-                @media only screen and (max-width: 768px) {
-            [class*="col-"] {
+<html>
+<head>
+    <title>  My cstu passport </title>
+    <link rel ="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        .row::after {
+        content: "";
+        clear: both;
+        display: block;
+        }
+
+        [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+
+        html {
+        font-family: "Lucida Sans", sans-serif;
+        }
+
+        .header {
+        background-color: #bc67e7;
+        color: #ffffff;
+        padding: 15px;
+        }
+
+        
+
+        .aside {
+        background-color: #33b5e5;
+        padding: 15px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 14px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        .s1{
+            justify-content: center;
+        }
+
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 75%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
             width: 100%;
+        }
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #eb9bf2;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            text-align: center;
+            cursor: pointer;
             }
-            html, body {
-                        background-color: #FBEAFF;
-                         
-                        margin: 0;
-                        padding: 0;
-                        font-family: 'Prompt', sans-serif;
-                        color: rgb(58, 142, 238);
-                      }
-                      .flex-layout{
-                        display: flex;
-                    }
-                    .flex-layout div{
-                        background-color: rgb(180, 209, 165);
-                        margin: 1px;
-                        text-align: center;
-                        height: 50px;
-                    }
-                    .section1{
-                      color: #5ea7c2;
-                    }
-                    .section2{
-                      color: #a844bf;
-                    }
-                    .section3{
-                      color: rgb(26, 194, 138);
-                    }
-
-
+        .menu li a {
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+        }
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
             }
-            
-
-            @media only screen and (min-width: 768px) {
-            /* For tablets: */
-            .col-s-1 {width: 8.33%;}
-            .col-s-2 {width: 16.66%;}
-            .col-s-3 {width: 100%;}
-            .col-s-4 {width: 33.33%;}
-            .col-s-5 {width: 41.66%;}
-            .col-s-6 {width: 100%;}
-            .col-s-7 {width: 58.33%;}
-            .col-s-8 {width: 66.66%;}
-            .col-s-9 {width: 75%;}
-            .col-s-10 {width: 83.33%;}
-            .col-s-11 {width: 91.66%;}
-            .col-s-12 {width: 100%;}
+                
+        .menu li:hover {
+            background-color: #c675dc;
+            color: #ffffff;
             }
+        .menu li a:hover {
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        }
+    </style>
+</head>
+<body>
 
-            @media only screen and (min-width: 1020px) {
-            /* For desktop: */
-            .col-1 {width: 8.33%;}
-            .col-2 {width: 16.66%;}
-            .col-3 {width: 100%;}
-            .col-4 {width: 33.33%;}
-            .col-5 {width: 41.66%;}
-            .col-6 {width: 100%;}
-            .col-7 {width: 58.33%;}
-            .col-8 {width: 66.66%;}
-            .col-9 {width: 75%;}
-            .col-10 {width: 83.33%;}
-            .col-11 {width: 91.66%;}
-            .col-12 {width: 100%;}
-            
-            
-            }
-            </style>
-        </head>
-        <body>
-            <header>
-            <div class="section1">
-            <h1> <marquee Scrollamount=7 >  My cstu passport </marquee> </h1> </div>
-            </header>
-            <div class="flex-layout col-3 col-s-3">
+<div class="header">
+        <div class="section1">
+        <h1> <marquee Scrollamount=7 >  My cstu passport </marquee> </h1>
+     </div>
+</div>
 
-                <div style="flex-grow: 4"><a href="../MyCSTUPassport-66609650319/html/MyActivity.html">Activity</a></div>
-                <div style="flex-grow: 3"><a href="../MyCSTUPassport-66609650319/html/MyAdvisor.html"> Advisor </a></div>
-    
-            </div>
-            <from>
-                <fieldset>
-                    
-                    <div class="col-6 col-s-9">
-                        <h1 Align="center"> My Profile </h1>  
-                        <center>
-                            <img src="image/me.jpg" alt="Myself Picture" width="300px" height = 400px Align="center"> </center>
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    <li><a href="../MyCSTUPassport-66609650319/html/MyActivity.html">Activity</a></li>
+    <li><a href="../MyCSTUPassport-66609650319/html/MyAdvisor.html"> Advisor </a></li>
+    </ul>
+  </div>
+
+  <div class="col-6">
+    <h1 Align="center"> My Profile </h1>  
+                        <div class="s1">
+                        <center>    <img src="image/me.jpg" alt="Myself Picture" width="300px" height = 400px Align="center"> </center>
                             <br>
-                    </div>
                         <h2 Align="center"> Natcahthron Danusawad </h2>
                         <h2 Align="center"> Gus  </h2>
 
@@ -102,13 +124,14 @@
                         <h2 Align="center">  Birthday : 31 October 2005 </h2>
                             <br>
 
-                        <center> <video src="VDO/mee.mov" width="400" height="300" controls alt="video not supportd" > Video not supported </video> </center>
+                        <center><video src="VDO/mee.mov" width="400" height="300" controls alt="video not supportd" > Video not supported </video> </center>
                             <br>
                             <br>
-                        <center> <a title="clickbait" href=" https://www.youtube.com/watch?v=p5fnHWznTBQ " target="_blank"> clickbait</a> </center>
-                    </center>
-                </fieldset>
-            </from>
+                        <center><a ti tle="clickbait" href=" https://www.youtube.com/watch?v=p5fnHWznTBQ " target="_blank"> clickbait</a> </center>
+                        </div>
+  </div>
 
-        </body>
-    </html>
+</body>
+</html>
+
+
